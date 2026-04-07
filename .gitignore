@@ -1,0 +1,7 @@
+# User-specific history and config are never committed
+history/
+config/profile.yml
+
+# OS
+.DS_Store
+Thumbs.db

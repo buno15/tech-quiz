@@ -1,0 +1,24 @@
+# TechQuiz – User Configuration
+# ─────────────────────────────
+# After install, this file lives at:
+#   ~/.claude/techquiz/config/profile.yml
+#
+# Edit it freely to match your stack and learning goals.
+
+# Display language for questions and feedback.
+# Any language Claude supports works: en, ja, zh, ko, es, fr, de, pt, ...
+language: en
+
+# Default difficulty level used when no level is given on the command line.
+# Scale: 1 (beginner) → 10 (expert)
+default_level: 5
+
+# Your personal category shortcuts used by `/techquiz all`.
+# Add any topic — not limited to the examples below.
+# Examples: TypeScript, Go, Rust, "System Design", "Security", "ML Basics"
+categories:
+  - TypeScript
+  - React
+  - Node.js
+  - AWS
+  - System Design
